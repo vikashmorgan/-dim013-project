@@ -1,32 +1,22 @@
-# DIM013 Project
+# dim013-project
 
-This repository contains a Python project developed as part of the DIM013 course.
+Load and clean the sample sales data.
 
-## Project Structure
+## Installation
 
-- `src/`: Python source code.
-- `data/`: Sample datasets used by the project.
-- `requirements.txt`: Python dependencies.
-- `README.md`: Project documentation.
+```bash
+git clone https://github.com/vikashmorgan/-dim013-project.git && cd ./-dim013-project
+python -m venv .venv
+source .venv/Scripts/activate
+pip install -r requirements.txt
+```
 
-## Getting Started
+## Usage
 
-### 1. Clone the repository
+```bash
+python -m src.load_data data/raw/sample.csv
+```
 
-Clone the project from GitHub and open its directory.
+## Contributing
 
-### 2. Install dependencies
-
-Run:
-
-python3 -m pip install -r requirements.txt
-
-### 3. Explore the project
-
-- Review the Python scripts in `src/`.
-- Check the sample data in `data/`.
-- Run the scripts according to their usage instructions.
-
-## Collaboration
-
-Contributors should create a dedicated branch for their changes and open a pull request before merging into `main`.
+Create a branch, commit with Conventional Commits, and open a pull request.
