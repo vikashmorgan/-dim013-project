@@ -1,1 +1,10 @@
+# environments & secrets
+.venv/
 .env
+
+# Python byproducts
+__pycache__/
+*.pyc
+
+# OS clutter
+.DS_Store
